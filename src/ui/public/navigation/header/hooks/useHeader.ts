@@ -10,7 +10,7 @@
  * 4. Context: If header state needs to be accessed by other components (e.g., a Sidebar), consider moving this state to a React Context.
  */
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 
 export const useHeader = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +36,34 @@ export const useHeader = () => {
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [setIsScrolled]);
+
+    // --- Mobile Menu Actions ---
+    const closeMobileMenu = useCallback(() => setIsMobileMenuOpen(false), []);
+
+    const toggleMobileMenu = useCallback(() => setIsMobileMenuOpen((prev) => !prev), []);
+
+    /**
+     * Resets the 10-second auto-close timer.
+     * Should be called on any user interaction within the menu.
+     */
+    const resetAutoCloseTimer = useCallback(() => {
+        if (autoCloseTimerRef.current) clearTimeout(autoCloseTimerRef.current);
+        // We only want to set the timer if the menu is actually open.
+        // However, checking isMobileMenuOpen here might cause dependency cycles if not careful.
+        // A ref can track the open state if needed, or we just trust the caller.
+        // In this specific flow, we check state inside the effect or rely on the fact 
+        // that this is called when interaction happens.
+
+        // Use a ref to access the latest state without triggering re-renders of the function?
+        // Or simpler: just standard dependency.
+        if (isMobileMenuOpen) {
+            autoCloseTimerRef.current = setTimeout(() => {
+                console.log('Auto-closing mobile menu due to inactivity.');
+                closeMobileMenu();
+            }, 10000); // 10 seconds
+        }
+    }, [isMobileMenuOpen, closeMobileMenu]);
 
     // --- Mobile Menu Logic ---
     useEffect(() => {
@@ -60,24 +87,7 @@ export const useHeader = () => {
                 window.removeEventListener('keydown', handleEsc);
             };
         }
-    }, [isMobileMenuOpen]);
-
-    /**
-     * Resets the 10-second auto-close timer.
-     * Should be called on any user interaction within the menu.
-     */
-    const resetAutoCloseTimer = () => {
-        if (autoCloseTimerRef.current) clearTimeout(autoCloseTimerRef.current);
-        if (isMobileMenuOpen) {
-            autoCloseTimerRef.current = setTimeout(() => {
-                console.log('Auto-closing mobile menu due to inactivity.');
-                closeMobileMenu();
-            }, 10000); // 10 seconds
-        }
-    };
-
-    const toggleMobileMenu = () => setIsMobileMenuOpen((prev) => !prev);
-    const closeMobileMenu = () => setIsMobileMenuOpen(false);
+    }, [isMobileMenuOpen, resetAutoCloseTimer, closeMobileMenu]);
 
     return {
         isScrolled,
