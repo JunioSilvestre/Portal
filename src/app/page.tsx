@@ -1,36 +1,32 @@
 /**
  * @file page.tsx
- * @description Página Inicial (Home Page).
+ * @description Página Inicial (Landing Page) da Aplicação.
  * @author Senior Engineer Logic
  * 
  * Estrutura:
- * No Next.js App Router, `page.tsx` define a UI de uma rota específica.
- * Como este arquivo está na raiz de `/app`, ele representa a rota `/` (Home).
- * 
- * Server Component:
- * Por padrão, páginas são Server Components. Isso significa que renderizam no servidor,
- * enviando menos JavaScript para o navegador (ótimo para performance e SEO).
+ * Compõe todas as seções principais (Hero, About, Works, Contact) em uma única página scrollável.
+ * Cada seção possui seu próprio ID para navegação via âncoras (Smooth Scroll).
  */
+
+import { Hero } from "@/ui/public/sections/hero/Hero";
+import { About } from "@/ui/public/sections/about/About";
+import { Works } from "@/ui/public/sections/works/Works";
+import { Contact } from "@/ui/public/sections/contact/Contact";
 
 export default function Home() {
   return (
-    // Estrutura Flexbox centralizada para demonstrar o layout
-    <div className="flex flex-col min-h-screen items-center justify-center gap-10 py-20">
+    <main className="flex flex-col min-h-screen">
+      {/* Seção 1: Hero (Destaque) */}
+      <Hero />
 
-      {/* Título Principal */}
-      <h1 className="text-4xl font-bold">Hello World</h1>
+      {/* Seção 2: About (Sobre Nós e Timeline) */}
+      <About />
 
-      {/* Conteúdo de Texto */}
-      <div className="max-w-2xl text-center space-y-4">
-        <p>Scroll down to test the header effect.</p>
+      {/* Seção 3: Works (Portfólio com Filtros) */}
+      <Works />
 
-        {/* Geramos parágrafos falsos para forçar o scroll e testar a animação do Header */}
-        {Array.from({ length: 20 }).map((_, i) => (
-          <p key={i} className="text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        ))}
-      </div>
-    </div>
+      {/* Seção 4: Contact (Formulário e Info) */}
+      <Contact />
+    </main>
   );
 }

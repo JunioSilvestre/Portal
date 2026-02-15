@@ -38,14 +38,12 @@ describe('Header Component', () => {
     });
 
     it('highlights the active link', () => {
-        (usePathname as jest.Mock).mockReturnValue('/about');
+        (usePathname as jest.Mock).mockReturnValue('/');
         render(<Header />);
 
-        const aboutLink = screen.getByText('About');
-        // Check if the link has the active class (mocked or checked via class presence)
-        // Since we use CSS modules, checking strictly for class name might be brittle without identity-obj-proxy
-        // But we check for aria-current which we added
-        expect(aboutLink).toHaveAttribute('aria-current', 'page');
+        const homeLink = screen.getByText('Home');
+        // Check if the Home link has aria-current="page"
+        expect(homeLink).toHaveAttribute('aria-current', 'page');
     });
 
     it('toggles mobile menu on interaction', () => {

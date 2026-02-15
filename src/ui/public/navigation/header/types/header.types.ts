@@ -11,7 +11,7 @@
 
 // Union Type: Define EXATAMENTE quais strings são permitidas como rota.
 // Se tentar usar '/contactt' (erro de digitação), o TypeScript vai gritar.
-export type AppRoute = '/' | '/about' | '/works' | '/contact' | '/get-starting';
+export type AppRoute = '/' | '/#about' | '/#works' | '/#contact' | '/get-starting';
 
 // Interface: Contrato que define a estrutura de um objeto "Link de Navegação".
 export interface NavLink {
@@ -33,8 +33,8 @@ export interface HeaderProps {
 // Todos os componentes (Mobile, Desktop, Footer) que usarem essa lista serão atualizados automaticamente.
 export const NAVIGATION_LINKS: NavLink[] = [
     { label: 'Home', href: '/' },
-    { label: 'About', href: '/about' },
-    { label: 'Works', href: '/works' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'About', href: '/#about' },
+    { label: 'Works', href: '/#works' },
+    { label: 'Contact', href: '/#contact' },
     // Adicione novos links aqui...
 ];

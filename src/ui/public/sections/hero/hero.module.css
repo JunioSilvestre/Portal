@@ -1,0 +1,185 @@
+/**
+ * @file hero.module.css
+ * @description Estilos para a Seção Hero (Banner Principal).
+ */
+
+/* Container Principal - Altura total da tela menos o header */
+.heroContainer {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* Ocupa a tela toda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #0a0a0a;
+    /* Fundo de fallback escuro */
+    color: #ffffff;
+    padding-top: 80px;
+    /* Compensar o Header fixo */
+}
+
+/* Background com Gradiente ou Imagem */
+.backgroundOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #000000 100%);
+    z-index: 1;
+}
+
+/* Elementos Decorativos de Fundo (Blur Blobs) */
+.decorationBlob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+    z-index: 2;
+    animation: float 10s infinite ease-in-out;
+}
+
+.blob1 {
+    top: 20%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    background-color: #4f46e5;
+    /* Índigo */
+    animation-delay: 0s;
+}
+
+.blob2 {
+    bottom: 20%;
+    right: 10%;
+    width: 400px;
+    height: 400px;
+    background-color: #9333ea;
+    /* Roxo */
+    animation-delay: -5s;
+}
+
+/* Conteúdo Centralizado */
+.content {
+    position: relative;
+    z-index: 10;
+    /* Acima do fundo */
+    text-align: center;
+    max-width: 900px;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Badge / Tag no topo */
+.badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.875rem;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    margin-bottom: 1rem;
+    color: #e5e7eb;
+}
+
+/* Título Principal Impactante */
+.title {
+    font-size: 3.5rem;
+    /* Grande em desktop */
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    background: linear-gradient(to right, #ffffff, #a5a5a5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+/* Subtítulo */
+.subtitle {
+    font-size: 1.25rem;
+    color: #d1d5db;
+    /* Cinza claro */
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* Grupo de Botões (CTA) */
+.ctaGroup {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.primaryButton {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: transform 0.2s ease, background-color 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.primaryButton:hover {
+    transform: translateY(-2px);
+    background-color: #f3f4f6;
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.secondaryButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Animação Keyframes */
+@keyframes float {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(20px, -20px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Responsividade Mobile */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .blob1,
+    .blob2 {
+        opacity: 0.3;
+        /* Menos intenso em mobile */
+        width: 200px;
+        height: 200px;
+    }
+}
