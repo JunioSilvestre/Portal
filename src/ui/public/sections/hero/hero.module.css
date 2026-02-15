@@ -17,7 +17,8 @@
     /* Fundo claro neutro */
     color: #171717;
     /* Texto escuro */
-    padding-top: 80px;
+    padding-top: 120px;
+    /* Compensar header fixo e dar respiro */
 }
 
 /* Background Sutil */

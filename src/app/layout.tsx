@@ -70,9 +70,10 @@ export default function RootLayout({
           <Header />
 
           {/* Spacer for fixed header */}
-          <div className="pt-24">
+          {/* Main Content (Hero should handle top padding) */}
+          <main className="flex-grow">
             {children}
-          </div>
+          </main>
           <Footer />
         </Providers>
       </body>
