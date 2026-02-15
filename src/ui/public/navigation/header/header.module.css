@@ -26,8 +26,8 @@
 
 /* --- Unscrolled State --- */
 .headerUnscrolled {
-  background-color: #f5f5f5;
-  /* Light grey background as requested */
+  background-color: transparent;
+  /* Transparent to blend with Hero gradient */
   border-color: transparent;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
