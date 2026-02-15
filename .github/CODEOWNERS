@@ -1,0 +1,14 @@
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, @JunioSilvestre will be requested for review when someone opens a pull request.
+* @JunioSilvestre
+
+# Order is important; the last matching pattern takes the most precedence.
+
+# GitHub Actions
+.github/workflows/ @JunioSilvestre
+
+# Core Infrastructure
+next.config.mjs @JunioSilvestre
+tailwind.config.ts @JunioSilvestre
+src/app/globals.css @JunioSilvestre
+src/components/providers.tsx @JunioSilvestre

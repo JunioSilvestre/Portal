@@ -1,0 +1,512 @@
+
+> portal@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3002
+
+ ✓ Starting...
+SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+ ✓ Ready in 1807ms
+SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⨯ uncaughtException: SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⨯ uncaughtException: SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⨯ uncaughtException: SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⨯ uncaughtException: SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⨯ uncaughtException: SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⨯ uncaughtException: SyntaxError: Invalid regular expression: /^C:\([^/]*)\.sys$/: Unmatched ')'
+    at new RegExp (<anonymous>)
+    at e.exports (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:841)
+    at stringToRegexp (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32096)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32268
+    at Array.map (<anonymous>)
+    at ignoredToFunction (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32260)
+    at normalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32710)
+    at cachedNormalizeOptions (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:32857)
+    at new Watchpack (C:\Projetos\portal\node_modules\next\dist\compiled\watchpack\watchpack.js:1:34123)
+    at NodeWatchFileSystem.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1037223)
+    at Watching.watch (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493267)
+    at C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:493044
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+ ⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3002
+
+ ✓ Starting...
+ValidationError: Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration[0].watchOptions.ignored should be one of these:
+   [non-empty string, ...] | RegExp | non-empty string
+   -> Ignore some files from watching (glob pattern or regexp).
+   Details:
+    * configuration[0].watchOptions.ignored[0] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[0].watchOptions.ignored[1] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[0].watchOptions.ignored[2] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[0].watchOptions.ignored[3] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[0].watchOptions.ignored[4] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[0].watchOptions.ignored[5] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+ - configuration[1].watchOptions.ignored should be one of these:
+   [non-empty string, ...] | RegExp | non-empty string
+   -> Ignore some files from watching (glob pattern or regexp).
+   Details:
+    * configuration[1].watchOptions.ignored[0] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[1].watchOptions.ignored[1] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[1].watchOptions.ignored[2] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[1].watchOptions.ignored[3] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[1].watchOptions.ignored[4] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[1].watchOptions.ignored[5] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+ - configuration[2].watchOptions.ignored should be one of these:
+   [non-empty string, ...] | RegExp | non-empty string
+   -> Ignore some files from watching (glob pattern or regexp).
+   Details:
+    * configuration[2].watchOptions.ignored[0] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[2].watchOptions.ignored[1] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[2].watchOptions.ignored[2] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[2].watchOptions.ignored[3] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[2].watchOptions.ignored[4] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    * configuration[2].watchOptions.ignored[5] should be a non-empty string.
+      -> A glob pattern for files that should be ignored from watching.
+    at validate (C:\Projetos\portal\node_modules\next\dist\compiled\schema-utils3\index.js:1:150822)
+    at validateSchema (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1422088)
+    at create (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1467703)
+    at webpack (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:1468340)
+    at f (C:\Projetos\portal\node_modules\next\dist\compiled\webpack\bundle5.js:28:895636)
+    at HotReloaderWebpack.start (C:\Projetos\portal\node_modules\next\dist\server\dev\hot-reloader-webpack.js:863:51)
+    at async startWatcher (C:\Projetos\portal\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js:156:5)
+    at async setupDevBundler (C:\Projetos\portal\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js:775:20)
+    at async Span.traceAsyncFn (C:\Projetos\portal\node_modules\next\dist\trace\trace.js:154:20)
+    at async initialize (C:\Projetos\portal\node_modules\next\dist\server\lib\router-server.js:79:30) {
+  errors: [
+    {
+      keyword: 'anyOf',
+      dataPath: '[0].watchOptions.ignored',
+      schemaPath: '#/definitions/WatchOptions/properties/ignored/anyOf',
+      params: {},
+      message: 'should match some schema in anyOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'anyOf',
+      dataPath: '[1].watchOptions.ignored',
+      schemaPath: '#/definitions/WatchOptions/properties/ignored/anyOf',
+      params: {},
+      message: 'should match some schema in anyOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    },
+    {
+      keyword: 'anyOf',
+      dataPath: '[2].watchOptions.ignored',
+      schemaPath: '#/definitions/WatchOptions/properties/ignored/anyOf',
+      params: {},
+      message: 'should match some schema in anyOf',
+      schema: [Array],
+      parentSchema: [Object],
+      data: [Array],
+      children: [Array]
+    }
+  ],
+  schema: {
+    definitions: {
+      Amd: [Object],
+      AmdContainer: [Object],
+      AssetFilterItemTypes: [Object],
+      AssetFilterTypes: [Object],
+      AssetGeneratorDataUrl: [Object],
+      AssetGeneratorDataUrlFunction: [Object],
+      AssetGeneratorDataUrlOptions: [Object],
+      AssetGeneratorOptions: [Object],
+      AssetInlineGeneratorOptions: [Object],
+      AssetModuleFilename: [Object],
+      AssetModuleOutputPath: [Object],
+      AssetParserDataUrlFunction: [Object],
+      AssetParserDataUrlOptions: [Object],
+      AssetParserOptions: [Object],
+      AssetResourceGeneratorOptions: [Object],
+      AuxiliaryComment: [Object],
+      Bail: [Object],
+      CacheOptions: [Object],
+      CacheOptionsNormalized: [Object],
+      Charset: [Object],
+      ChunkFilename: [Object],
+      ChunkFormat: [Object],
+      ChunkLoadTimeout: [Object],
+      ChunkLoading: [Object],
+      ChunkLoadingGlobal: [Object],
+      ChunkLoadingType: [Object],
+      Clean: [Object],
+      CleanOptions: [Object],
+      CompareBeforeEmit: [Object],
+      Context: [Object],
+      CrossOriginLoading: [Object],
+      CssAutoGeneratorOptions: [Object],
+      CssAutoParserOptions: [Object],
+      CssChunkFilename: [Object],
+      CssFilename: [Object],
+      CssGeneratorExportsOnly: [Object],
+      CssGeneratorOptions: [Object],
+      CssGlobalGeneratorOptions: [Object],
+      CssGlobalParserOptions: [Object],
+      CssModuleGeneratorOptions: [Object],
+      CssModuleParserOptions: [Object],
+      CssParserNamedExports: [Object],
+      CssParserOptions: [Object],
+      Dependencies: [Object],
+      DevServer: [Object],
+      DevTool: [Object],
+      DevtoolFallbackModuleFilenameTemplate: [Object],
+      DevtoolModuleFilenameTemplate: [Object],
+      DevtoolNamespace: [Object],
+      EmptyGeneratorOptions: [Object],
+      EmptyParserOptions: [Object],
+      EnabledChunkLoadingTypes: [Object],
+      EnabledLibraryTypes: [Object],
+      EnabledWasmLoadingTypes: [Object],
+      Entry: [Object],
+      EntryDescription: [Object],
+      EntryDescriptionNormalized: [Object],
+      EntryDynamic: [Object],
+      EntryDynamicNormalized: [Object],
+      EntryFilename: [Object],
+      EntryItem: [Object],
+      EntryNormalized: [Object],
+      EntryObject: [Object],
+      EntryRuntime: [Object],
+      EntryStatic: [Object],
+      EntryStaticNormalized: [Object],
+      EntryUnnamed: [Object],
+      Environment: [Object],
+      Experiments: [Object],
+      ExperimentsCommon: [Object],
+      ExperimentsNormalized: [Object],
+      Extends: [Object],
+      ExtendsItem: [Object],
+      ExternalItem: [Object],
+      ExternalItemFunctionData: [Object],
+      ExternalItemValue: [Object],
+      Externals: [Object],
+      ExternalsPresets: [Object],
+      ExternalsType: [Object],
+      Falsy: [Object],
+      FileCacheOptions: [Object],
+      Filename: [Object],
+      FilenameTemplate: [Object],
+      FilterItemTypes: [Object],
+      FilterTypes: [Object],
+      GeneratorOptionsByModuleType: [Object],
+      GlobalObject: [Object],
+      HashDigest: [Object],
+      HashDigestLength: [Object],
+      HashFunction: [Object],
+      HashSalt: [Object],
+      HotUpdateChunkFilename: [Object],
+      HotUpdateGlobal: [Object],
+      HotUpdateMainFilename: [Object],
+      HttpUriAllowedUris: [Object],
+      HttpUriOptions: [Object],
+      HttpUriOptionsAllowedUris: [Object],
+      IgnoreWarnings: [Object],
+      IgnoreWarningsNormalized: [Object],
+      Iife: [Object],
+      ImportFunctionName: [Object],
+      ImportMetaName: [Object],
+      InfrastructureLogging: [Object],
+      JavascriptParserOptions: [Object],
+      Layer: [Object],
+      LazyCompilationDefaultBackendOptions: [Object],
+      LazyCompilationOptions: [Object],
+      Library: [Object],
+      LibraryCustomUmdCommentObject: [Object],
+      LibraryCustomUmdObject: [Object],
+      LibraryExport: [Object],
+      LibraryName: [Object],
+      LibraryOptions: [Object],
+      LibraryType: [Object],
+      Loader: [Object],
+      MemoryCacheOptions: [Object],
+      Mode: [Object],
+      ModuleFilterItemTypes: [Object],
+      ModuleFilterTypes: [Object],
+      ModuleOptions: [Object],
+      ModuleOptionsNormalized: [Object],
+      Name: [Object],
+      NoParse: [Object],
+      Node: [Object],
+      NodeOptions: [Object],
+      Optimization: [Object],
+      OptimizationRuntimeChunk: [Object],
+      OptimizationRuntimeChunkNormalized: [Object],
+      OptimizationSplitChunksCacheGroup: [Object],
+      OptimizationSplitChunksGetCacheGroups: [Object],
+      OptimizationSplitChunksOptions: [Object],
+      OptimizationSplitChunksSizes: [Object],
+      Output: [Object],
+      OutputModule: [Object],
+      OutputNormalized: [Object],
+      Parallelism: [Object],
+      ParserOptionsByModuleType: [Object],
+      Path: [Object],
+      Pathinfo: [Object],
+      Performance: [Object],
+      PerformanceOptions: [Object],
+      Plugins: [Object],
+      Profile: [Object],
+      PublicPath: [Object],
+      RawPublicPath: [Object],
+      RecordsInputPath: [Object],
+      RecordsOutputPath: [Object],
+      RecordsPath: [Object],
+      Resolve: [Object],
+      ResolveAlias: [Object],
+      ResolveLoader: [Object],
+      ResolveOptions: [Object],
+      ResolvePluginInstance: [Object],
+      RuleSetCondition: [Object],
+      RuleSetConditionAbsolute: [Object],
+      RuleSetConditionOrConditions: [Object],
+      RuleSetConditionOrConditionsAbsolute: [Object],
+      RuleSetConditions: [Object],
+      RuleSetConditionsAbsolute: [Object],
+      RuleSetLoader: [Object],
+      RuleSetLoaderOptions: [Object],
+      RuleSetLogicalConditions: [Object],
+      RuleSetLogicalConditionsAbsolute: [Object],
+      RuleSetRule: [Object],
+      RuleSetRules: [Object],
+      RuleSetUse: [Object],
+      RuleSetUseItem: [Object],
+      ScriptType: [Object],
+      SnapshotOptions: [Object],
+      SourceMapFilename: [Object],
+      SourcePrefix: [Object],
+      StatsOptions: [Object],
+      StatsValue: [Object],
+      StrictModuleErrorHandling: [Object],
+      StrictModuleExceptionHandling: [Object],
+      Target: [Object],
+      TrustedTypes: [Object],
+      UmdNamedDefine: [Object],
+      UniqueName: [Object],
+      WarningFilterItemTypes: [Object],
+      WarningFilterTypes: [Object],
+      WasmLoading: [Object],
+      WasmLoadingType: [Object],
+      Watch: [Object],
+      WatchOptions: [Object],
+      WebassemblyModuleFilename: [Object],
+      WebpackOptionsNormalized: [Object],
+      WebpackPluginFunction: [Object],
+      WebpackPluginInstance: [Object],
+      WorkerPublicPath: [Object]
+    },
+    title: 'WebpackOptions',
+    description: 'Options object as provided by the user.',
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+      amd: [Object],
+      bail: [Object],
+      cache: [Object],
+      context: [Object],
+      dependencies: [Object],
+      devServer: [Object],
+      devtool: [Object],
+      entry: [Object],
+      experiments: [Object],
+      extends: [Object],
+      externals: [Object],
+      externalsPresets: [Object],
+      externalsType: [Object],
+      ignoreWarnings: [Object],
+      infrastructureLogging: [Object],
+      loader: [Object],
+      mode: [Object],
+      module: [Object],
+      name: [Object],
+      node: [Object],
+      optimization: [Object],
+      output: [Object],
+      parallelism: [Object],
+      performance: [Object],
+      plugins: [Object],
+      profile: [Object],
+      recordsInputPath: [Object],
+      recordsOutputPath: [Object],
+      recordsPath: [Object],
+      resolve: [Object],
+      resolveLoader: [Object],
+      snapshot: [Object],
+      stats: [Object],
+      target: [Object],
+      watch: [Object],
+      watchOptions: [Object]
+    }
+  },
+  headerName: 'Webpack',
+  baseDataPath: 'configuration',
+  postFormatter: [Function: postFormatter]
+}
+[?25h
